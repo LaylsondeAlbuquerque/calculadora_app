@@ -26,10 +26,25 @@ O objetivo principal foi aplicar os conceitos fundamentais da linguagem Dart, co
 
 ##  Como Executar
 
-1.  Certifique-se de ter o [SDK do Dart](https://dart.dev/get-dart) instalado em sua máquina.
-2.  Salve o código-fonte em um arquivo (ex: `calculadora.dart`).
-3.  Abra seu terminal no diretório onde o arquivo foi salvo.
-4.  Execute o seguinte comando:
+Pré-requisitos: Git e [SDK do Dart](https://dart.dev/get-dart) compatível com `^3.10.0`, conforme definido no `pubspec.yaml`.
 
-```bash
-dart run calculadora.dart
+1. Clone o repositório e entre na pasta do projeto:
+
+   ```bash
+   git clone https://github.com/LaylsondeAlbuquerque/calculadora_app.git
+   cd calculadora_app
+   ```
+
+2. Instale as dependências:
+
+   ```bash
+   dart pub get
+   ```
+
+3. Execute o arquivo de entrada existente no repositório:
+
+   ```bash
+   dart run bin/calculadora_app.dart
+   ```
+
+4. Informe os dois números e o operador no terminal. Ao final, responda `s` para continuar ou `n` para sair.
